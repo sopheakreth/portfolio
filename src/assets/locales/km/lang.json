@@ -1,0 +1,60 @@
+{
+  "successPage": {
+    "firstTitle": "Successful Payment",
+    "secondTitle": "Page will be redirect to EDC in",
+    "thirdTitle": "seconds"
+  },
+  "expiredPage": {
+    "firstTitle": "Payment Session Expired",
+    "secondTitle": "Please close and initiate checkout again"
+  },
+  "inProgressPage": {
+    "firstTitle": "Scan QR code by iBank mobile app",
+    "secondTitle": "Payment in progress",
+    "thirdTitle": "Download iBank Mobile",
+    "fourthTitle": "Here"
+  },
+  "failedPage": {
+    "firstTitle": "Scan QR code by iBank mobile app",
+    "secondTitle": "Fail to generate QR Code.",
+    "thirdTitle": "Retry",
+    "fourthTitle": "Download iBank Mobile",
+    "fifthTitle": "Here",
+    "sixthTitle": "Page will be redirect to EDC in",
+    "seventhTitle": "seconds"
+  },
+  "pendingPage": {
+    "firstTitle": "Scan QR code by iBank mobile app",
+    "secondTitle": "Download iBank Mobile",
+    "thirdTitle": "Here"
+  },
+  "detailInfo": {
+    "payTo": "Pay to",
+    "orderDate": "Order date",
+    "orderId": "Order Id",
+    "amount": "Amount",
+    "fee": "Fee",
+    "total": "Total"
+  },
+  "languageSwitcher": {
+    "languageEn": "English",
+    "languageKh": "ភាសាខ្មែរ",
+    "languageCn": "中文"
+  },
+  "errorPage": {
+    "t404": "404",
+    "opps": "Opps!",
+    "pnf": "Page not found.",
+    "desc": "The page you’re looking for doesn’t exist."
+  },
+  "appVersion":  {
+    "vers": "Application v"
+  },
+  "tnxNotFoundPage":  {
+    "t505": "505",
+    "opps": "Opps!",
+    "txnNotFound": "Transaction not found.",
+    "desc": "The transaction you’re looking for doesn’t exist or invalid."
+  }
+  
+}
