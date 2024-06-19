@@ -1,9 +1,0 @@
-include:
-  - project: 'devops/centralized-pipeline'
-    ref: 'main'
-    file: 'gitlab-ci/next-fe.yaml'
-
-variables:
-    PROJECT_NAME: "edc-website"
-    S3_BUCKET_DEV: "edc-website-non-prod"
-    S3_BUCKET_UAT: "edc-website-uat"
