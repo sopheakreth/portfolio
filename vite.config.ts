@@ -9,8 +9,5 @@ export default defineConfig({
     react(),
     dynamicTitlePlugin()
   ],
-  base: './',
-  build: {
-    outDir: 'build'
-  }
+  base: './'
 })

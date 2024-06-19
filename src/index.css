@@ -47,11 +47,16 @@ h5 {
   text-align: center;
   padding: 15px;
   margin-bottom: 5px;
+  border: 1px #8E8E8E solid;
+}
+
+.menu-circle.active {
+  border: 4px #168CF9 solid;
 }
 
 .social-circle {
-  height: 40px;
-  width: 40px;
+  height: 35px;
+  width: 35px;
   border: 2px #8E8E8E solid;
   color: #8E8E8E;
   text-align: center;
@@ -59,8 +64,9 @@ h5 {
 }
 
 .icon-label {
-  margin-top: 2px;
-  font-size: 14px;
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 12px;
 }
 
 .body-content {
