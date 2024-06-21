@@ -8,4 +8,5 @@ export default defineConfig({
   optimizeDeps: {
     include: ['jquery'], // Include jQuery in optimized dependencies
   },
+  base: '/portfolio/'
 })

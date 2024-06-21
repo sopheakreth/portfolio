@@ -1,3 +1,5 @@
+import profileImage from '/imgs/profile.png'
+
 const AboutComponent = () => {
   return (
     <>
@@ -5,7 +7,7 @@ const AboutComponent = () => {
         <div className="container text-center">
           <div className="about">
             <div className="about-img-holder">
-              <img src="/imgs/profile.png" className="about-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" />
+              <img src={profileImage} className="about-img" alt="My Profile" />
             </div>
             <div className="about-caption">
               <p className="section-subtitle">Who Am I ?</p>
