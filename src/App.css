@@ -1,42 +1,68 @@
-/* #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.experience {
+  border-left: 3px solid #168CF9;
+  padding: 0 30px;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media (max-width: 767px) {
+  .experience {
+    margin-left: 0;
+    padding-right: 0;
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.experience .item {
+  position: relative;
+  margin-bottom: 40px;
 }
 
-.card {
-  padding: 2em;
+.experience .item::before {
+  content: "";
+  position: absolute;
+  left: -43px;
+  top: 0;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: white;
+  border: 3px solid #168CF9;
 }
 
-.read-the-docs {
-  color: #888;
-} */
+.experience .item::after {
+  content: "";
+  position: absolute;
+  left: -37px;
+  top: 6px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #168CF9;
+}
+
+.experience .company-name {
+  color: #212529;
+}
+
+.experience .location {
+  position: absolute;
+  right: 0;
+  top: 2px;
+}
+
+.experience .location .fa {
+  margin-right: 8px;
+}
+
+.experience .job-info {
+  position: static;
+  margin-bottom: 1rem;
+  left: -185px;
+  top: 0;
+}
+
+.experience .job-info .title {
+  color: black;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}

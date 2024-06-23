@@ -1,16 +1,10 @@
 import './App.css'
-import AboutComponent from './components/About';
-import FooterComponent from './components/Footer';
-import HeaderComponent from './components/Header';
+import PortfolioPage from './pages/Portfolio';
 
 const App = () => {
     return (
         <>
-            <HeaderComponent />
-
-            <AboutComponent />
-
-            <FooterComponent />
+            <PortfolioPage />
         </>
     );
 };

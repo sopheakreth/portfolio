@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import $ from 'jquery';
+import backgroundHeader from '/imgs/header.jpg';
 
 import TextTransition, { presets } from 'react-text-transition';
 
@@ -32,13 +33,11 @@ const HeaderComponent = ({ }) => {
     return () => clearInterval(intervalId);
   }, []);
 
-
-
   return (
     <>
       <nav className="custom-navbar" data-spy="affix" data-offset-top="20">
         <div className="container">
-          <a className="logo" href="#">Portfolio</a>
+          <a className="logo" href="/portfolio">Portfolio</a>
           <ul className="nav">
             <li className="item">
               <a className="link" href="#home">Home</a>
@@ -63,16 +62,16 @@ const HeaderComponent = ({ }) => {
           </a>
         </div>
       </nav>
-      <header id="home" className="header">
+      <header id="home" className="header" style={{ backgroundImage: `url(${backgroundHeader})` }}>
         <div className="overlay"></div>
         <div className="header-content container">
           <h1 className="header-title">
             <span className="up">HI!</span>
             <span className="down">I am Sopheak Reth</span>
           </h1>
-          <p className="header-subtitle">
-            <TextTransition springConfig={presets.wobbly as any}>{TEXTS[index % TEXTS.length]}</TextTransition>
-          </p>
+          <TextTransition springConfig={presets.wobbly as any}>
+            <p className="header-subtitle">{TEXTS[index % TEXTS.length]}</p>
+          </TextTransition>
           <a href="#resume" className="btn btn-primary" >Visit My Experiences</a>
         </div>
       </header>
